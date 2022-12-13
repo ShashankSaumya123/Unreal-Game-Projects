@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "SastaFallGuysEditor Editor Win64 Development (SastaFallGuys)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Unreal Game Projects\\SastaFallGuys\\.vscode\\compileCommands_SastaFallGuys.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Unreal Game Projects\\SastaFallGuys\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
