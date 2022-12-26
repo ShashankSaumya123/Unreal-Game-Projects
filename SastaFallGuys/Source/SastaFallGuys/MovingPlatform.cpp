@@ -67,8 +67,10 @@ void AMovingPlatform::RotatePlatform(float DeltaTime)
 
 bool AMovingPlatform::ShouldPlatformReturn()
 {
-	// Gets the current separation of platform from initial position
-	float DistanceMoved =  FVector::Dist(StartLocation, GetActorLocation());
+	return GetDistanceMoved() > AllowedDistance;
+}
 
-	return DistanceMoved > AllowedDistance;
+float AMovingPlatform::GetDistanceMoved()
+{
+	return FVector::Dist(StartLocation, GetActorLocation());
 }
