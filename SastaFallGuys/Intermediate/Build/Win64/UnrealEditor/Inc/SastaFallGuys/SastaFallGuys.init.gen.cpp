@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeSastaFallGuys_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xF7BFA1E9,
+				0x3D9FB2F5,
 				0x2EB2C2CD,
 				METADATA_PARAMS(nullptr, 0)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeSastaFallGuys_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_SastaFallGuys.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_SastaFallGuys(Z_Construct_UPackage__Script_SastaFallGuys, TEXT("/Script/SastaFallGuys"), Z_Registration_Info_UPackage__Script_SastaFallGuys, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xF7BFA1E9, 0x2EB2C2CD));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_SastaFallGuys(Z_Construct_UPackage__Script_SastaFallGuys, TEXT("/Script/SastaFallGuys"), Z_Registration_Info_UPackage__Script_SastaFallGuys, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x3D9FB2F5, 0x2EB2C2CD));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

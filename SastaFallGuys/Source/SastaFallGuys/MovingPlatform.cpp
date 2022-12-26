@@ -18,6 +18,10 @@ void AMovingPlatform::BeginPlay()
 
 	StartLocation = GetActorLocation();
 
+	FString Name = GetName();
+
+	UE_LOG(LogTemp, Display, TEXT("BeginPlay: %s"), *Name);
+
 }
 
 // Called every frame
@@ -25,25 +29,46 @@ void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	// Gets the current location of platform
-	FVector CurrentLocation = GetActorLocation();
+	MovePlatform(DeltaTime);
+	
+	RotatePlatform(DeltaTime);
+}
 
-	// Gets the current separation of platform from initial position
-	float DistanceMoved =  FVector::Dist(StartLocation, CurrentLocation);
-
+void AMovingPlatform::MovePlatform(float DeltaTime)
+{
+	
 	// If condition to reverse direction of the platform
-	if(DistanceMoved > AllowedDistance)
+	if(ShouldPlatformReturn())
 	{
 		// Calcuates the distance where a switch in direction is needed and sets the new location there.
 		FVector MoveDirection = PlatformVelocity.GetSafeNormal();
-		StartLocation += MoveDirection*AllowedDistance;
+		StartLocation += MoveDirection * AllowedDistance;
 		SetActorLocation(StartLocation);
 
 		PlatformVelocity *= -1;
 	}
-	// Update the location of the platform
-	CurrentLocation += PlatformVelocity*DeltaTime;
-	SetActorLocation(CurrentLocation);
+	else
+	{
+		// Gets the current location of platform
+		FVector CurrentLocation = GetActorLocation();
 
+		// Update the location of the platform
+		CurrentLocation += PlatformVelocity*DeltaTime;
+		SetActorLocation(CurrentLocation);
+
+	}
+	
 }
 
+void AMovingPlatform::RotatePlatform(float DeltaTime)
+{
+	UE_LOG(LogTemp, Display, TEXT("The Delta time is %f"), DeltaTime);
+}
+
+bool AMovingPlatform::ShouldPlatformReturn()
+{
+	// Gets the current separation of platform from initial position
+	float DistanceMoved =  FVector::Dist(StartLocation, GetActorLocation());
+
+	return DistanceMoved > AllowedDistance;
+}
