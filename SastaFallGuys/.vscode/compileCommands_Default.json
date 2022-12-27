@@ -1,0 +1,27 @@
+[
+	{
+		"file": "D:\\Unreal Game Projects\\SastaFallGuys\\Source\\SastaFallGuys\\MovingPlatform.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Unreal Game Projects\\SastaFallGuys\\.vscode\\compileCommands_Default\\SastaFallGuys.205.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Game Projects\\SastaFallGuys\\Source\\SastaFallGuys\\MovingPlatform.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Unreal Game Projects\\SastaFallGuys\\.vscode\\compileCommands_Default\\SastaFallGuys.205.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Game Projects\\SastaFallGuys\\Source\\SastaFallGuys\\SastaFallGuys.Build.cs",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Unreal Game Projects\\SastaFallGuys\\.vscode\\compileCommands_Default\\SastaFallGuys.205.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Game Projects\\SastaFallGuys\\Source\\SastaFallGuys\\SastaFallGuys.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Unreal Game Projects\\SastaFallGuys\\.vscode\\compileCommands_Default\\SastaFallGuys.205.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Game Projects\\SastaFallGuys\\Source\\SastaFallGuys\\SastaFallGuys.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Unreal Game Projects\\SastaFallGuys\\.vscode\\compileCommands_Default\\SastaFallGuys.205.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.0\\Engine\\Source"
+	}
+]

@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SastaFallGuys.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Game Projects\SastaFallGuys\Intermediate\Build\Win64\SastaFallGuysEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal Game Projects\SastaFallGuys\Intermediate\Build\Win64\UnrealEditor\Development\SastaFallGuys\SastaFallGuys.cpp.obj"
+"D:\Unreal Game Projects\SastaFallGuys\Intermediate\Build\Win64\UnrealEditor\Development\SastaFallGuys\MovingPlatform.cpp.obj"
+"D:\Unreal Game Projects\SastaFallGuys\Intermediate\Build\Win64\UnrealEditor\Development\SastaFallGuys\MovingPlatform.gen.cpp.obj"
+"D:\Unreal Game Projects\SastaFallGuys\Intermediate\Build\Win64\UnrealEditor\Development\SastaFallGuys\SastaFallGuys.init.gen.cpp.obj"
+"D:\Unreal Game Projects\SastaFallGuys\Intermediate\Build\Win64\UnrealEditor\Development\SastaFallGuys\Default.rc2.res"
+/OUT:"D:\Unreal Game Projects\SastaFallGuys\Intermediate\Build\Win64\UnrealEditor\Development\SastaFallGuys\UnrealEditor-SastaFallGuys.lib"

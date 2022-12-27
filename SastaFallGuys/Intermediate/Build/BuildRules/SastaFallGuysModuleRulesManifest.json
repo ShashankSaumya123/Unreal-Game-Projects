@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Game Projects\\SastaFallGuys\\Source\\SastaFallGuys\\SastaFallGuys.Build.cs",
+		"D:\\Unreal Game Projects\\SastaFallGuys\\Source\\SastaFallGuys.Target.cs",
+		"D:\\Unreal Game Projects\\SastaFallGuys\\Source\\SastaFallGuysEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}
